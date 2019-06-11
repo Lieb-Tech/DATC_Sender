@@ -7,3 +7,6 @@ This application will run on the RaspberryPi to collect the raw data - to do so 
 That data is then serialized and uploaded to an Azure Event Hub (Kafka-like) ingestion service.  The data is then processed by the DATC_Receiver project. 
 
 In an effort to keep the programming pattern the same in both Sender & Receiver, the application uses Akka.Net.
+
+Video of system running -- Receiver on left, Sender on right  
+[![](http://img.youtube.com/vi/SL75g1Sdo4A/0.jpg)](http://www.youtube.com/watch?v=SL75g1Sdo4A "DATC running")
